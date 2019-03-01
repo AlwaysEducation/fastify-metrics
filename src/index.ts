@@ -1,7 +1,8 @@
 import {FastifyInstance, Plugin} from 'fastify';
 import * as http from 'http';
 import fastifyPlugin from 'fastify-plugin';
-import client, {
+import * as client from 'prom-client';
+import {
   HistogramConfiguration,
   SummaryConfiguration,
   labelValues,
