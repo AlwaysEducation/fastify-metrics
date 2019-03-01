@@ -5,4 +5,3 @@ build
 coverage
 config/local.*
 **/*.xxx.js  
-dist/
